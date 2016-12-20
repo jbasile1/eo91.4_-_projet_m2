@@ -1,1 +1,32 @@
 
+*************16/11/2016*******************
+Découverte du projet
+Recherche du jeu de données de morceau de verre 
+
+https://archive.ics.uci.edu/ml/datasets/Glass+Identification
+
+on observe que le jeu de données ne possede pas d'element dans la classe 4.
+On a centrée et reduit les données, puis chercher à decouper le base en deux: une d'apprentissage et une de test.
+
+ ************21/11/2016*******************
+Poursuite de ce qui n'avait pas été fait la seance precedente.
+recuperation des bases de test et d'apprentissages effectuer par Djinny Volet.
+
+*************28/11/2016********************
+Absente le matin mais séance essentiellement basée sur la gestion de projet.
+l'apres midi, répartition des taches je choisi la methode de classification des K plus proches voisins.
+J'effectue des recherches afin d'appliquer l'algorithme des KPPV via des outils déjà utilisés auparavant
+MatLab: pour appliquer l'algorithme, il fallait que ma base de test et celle d'apprentissage soit de la meme taille
+ce qui n'etait pas possible vu que la base sur laquelle nous travaillons était découpé en 70/30.
+Rapid miner: ne me permettait pas d'appliquer l'algorithme sur la base de test apres son apprentissage.
+
+**************30/11/2016********************
+Jamasa ayant implementé l'algorithme, j'ai analysé son code et c'est resultat. on a  cherché a comprendre pourquoi l'algorithme ne 
+classait aucun element prédit dans la base de test dans la classe 3. jai cherché a échanger une ligne de la base de d'aprenstissage avec celle de la
+base de test mais cela n'a rien changé, on s'est donc tourné vers l'exploitation visuelle des resultat obtenu par jamasa.
+Grace a matlab on a pu obtenir de matrice de confusion.
+On souhaitait affiché une representation des données en se disant que si le predit correspond a celui classifier on obtiendrait quelque chose de lineaire 
+et tout les elements mal classifiés serait hors de cette ligne mais les point se superposant, ça ne nous permettait pas de savoir combien d'élément sont mal classifier.
+
+*************14/12/2016***********************
+recherche des etudes deja effectuée sur ce jeu de données et de la methode des KPPV
