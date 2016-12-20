@@ -2,6 +2,7 @@
 
 Données utilisées lors des différentes expériences par les classifiers
 
+* `glass.data` : description des données
 * *_train.csv : données d'apprentissage
 * *_test.csv : données de test
 * raw_*.csv : données brutes
