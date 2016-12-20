@@ -10,3 +10,9 @@ Dossier contenant les données
 
 ## Journaux
 Dossier contenant les fichiers d'expériences des étudiants.
+* BARNACIN Endrick
+* BASILE Johannie
+* BRUTE Karl
+* EUGÉNIE Reynald
+* REMY Jamasa
+* VOLET Djinny
